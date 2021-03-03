@@ -1,5 +1,5 @@
 USE SENAI_HROADS_TARDE;
-
+-- exercicio 3
 INSERT INTO TipoHabilidade    (Tipo)
 VALUES                        ('Ataque')
                             ,('Defesa')
@@ -33,11 +33,11 @@ INSERT INTO Personagens        (Nome, CapacidadeMaxVida, CapacidadeMaxMana, Data
 VALUES                        ('DeuBug', '100', '80', '2021/03/01', '2019/01/18', 1)
                             ,('BitBug', '70', '100', '2021/03/01', '2016/03/17', 4)
                             ,('Fer8', '75', '60', '2021/03/01', '2018/03/17', 7);
-
+-- exercicio 4
 UPDATE Personagens
 SET Nome = 'Fer7'
 WHERE idPersonagem = 3
-
+-- exercicio 5
 UPDATE Classes
 SET Nome = 'Necromancer'
 WHERE idClasse = 5

@@ -1,7 +1,9 @@
+-- exercicio 1
 CREATE DATABASE SENAI_HROADS_TARDE;
 
 USE SENAI_HROADS_TARDE;
 
+-- exercicio 2
 CREATE TABLE TipoHabilidade
 (
     idTipo    INT PRIMARY KEY IDENTITY
